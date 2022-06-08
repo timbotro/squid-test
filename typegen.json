@@ -1,6 +1,6 @@
 {
   "outDir": "src/types",
-  "chainVersions": "kusamaVersions.json",
+  "chainVersions": "kusamaVersionsTim.json",
   "typesBundle": "kusama",
   "events": [
     "balances.Transfer"

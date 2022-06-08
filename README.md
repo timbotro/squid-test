@@ -177,7 +177,7 @@ fetch corresponding metadata.
 npx squid-substrate-metadata-explorer \
   --chain wss://kusama-rpc.polkadot.io \
   --archive https://kusama.indexer.gc.subsquid.io/v4/graphql \
-  --out kusamaVersions.json
+  --out kusamaVersionsTim.json
 ```
 
 In the above command `--archive` parameter is optional, but it speeds up the process
@@ -198,7 +198,7 @@ Where `typegen.json` config file has the following structure:
 ```json5
 {
   "outDir": "src/types",
-  "chainVersions": "kusamaVersions.json", // the result of chain exploration
+  "chainVersions": "kusamaVersionsTim.json", // the result of chain exploration
   "typesBundle": "kusama", // see types bundle section below
   "events": [ // list of events to generate
     "balances.Transfer"
